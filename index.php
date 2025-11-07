@@ -1,9 +1,9 @@
 <?php
-a = 2;
-b = 4;
-sum = a+b;
-sub = a-b;
-div = a/b;
-mult = a*b;
-echo sum . " " . sub . " " . div . " ". mult;
+$num1 = 3;  
+$num2 = 2;
+$sum = $num1 + $num2;
+$sub = $num1 - $num2;
+$div = $num1 / $num2;
+$mult = $num1 * $num2;
+echo $sum . ", " . $sub . ", " . $div . ", ". $mult;  
 ?>
